@@ -183,7 +183,7 @@ var bool = ( out === y );
 
 The method has the following parameters:
 
--   **x**: input [ndarray][@stdlib/ndarray/ctor]. Must have a real-valued or generic [data type][@stdlib/ndarray/dtypes].
+-   **x**: input [ndarray][@stdlib/ndarray/ctor]. Must have a real-valued or "generic" [data type][@stdlib/ndarray/dtypes].
 -   **out**: output [ndarray][@stdlib/ndarray/ctor].
 -   **options**: function options (_optional_).
 
@@ -286,7 +286,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -312,8 +312,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
