@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-nanmin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Compute the minimum value along one or more ndarray dimensions, ignoring `NaN` values.",
   "license": "Apache-2.0",
   "author": {
@@ -38,14 +38,14 @@
   },
   "dependencies": {
     "@stdlib/ndarray-base-unary-reduce-strided1d-dispatch-factory": "github:stdlib-js/ndarray-base-unary-reduce-strided1d-dispatch-factory#main",
-    "@stdlib/ndarray-dtypes": "^0.3.0",
-    "@stdlib/stats-base-ndarray-dnanmin": "github:stdlib-js/stats-base-ndarray-dnanmin#main",
-    "@stdlib/stats-base-ndarray-nanmin": "github:stdlib-js/stats-base-ndarray-nanmin#main",
-    "@stdlib/stats-base-ndarray-snanmin": "github:stdlib-js/stats-base-ndarray-snanmin#main",
+    "@stdlib/ndarray-dtypes": "^0.4.0",
+    "@stdlib/stats-base-ndarray-dnanmin": "^0.1.0",
+    "@stdlib/stats-base-ndarray-nanmin": "^0.1.0",
+    "@stdlib/stats-base-ndarray-snanmin": "^0.1.0",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
-    "@stdlib/array-filled-by": "^0.2.1",
+    "@stdlib/array-filled-by": "^0.3.0",
     "@stdlib/array-zeros": "^0.2.2",
     "@stdlib/assert-is-method": "^0.2.2",
     "@stdlib/assert-is-ndarray-like": "^0.2.2",
@@ -56,13 +56,13 @@
     "@stdlib/ndarray-ctor": "^0.2.2",
     "@stdlib/ndarray-dtype": "^0.2.2",
     "@stdlib/ndarray-empty": "^0.3.0",
-    "@stdlib/ndarray-empty-like": "^0.3.0",
+    "@stdlib/ndarray-empty-like": "^0.3.1",
     "@stdlib/ndarray-order": "^0.2.2",
     "@stdlib/ndarray-shape": "^0.2.2",
     "@stdlib/ndarray-to-array": "^0.2.1",
     "@stdlib/ndarray-zeros": "^0.3.0",
     "@stdlib/random-base-bernoulli": "^0.2.1",
-    "@stdlib/random-base-uniform": "^0.2.1",
+    "@stdlib/random-base-uniform": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
